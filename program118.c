@@ -1,16 +1,4 @@
-// Singly Linear Linked list
-/*
-    InsertFirst
-    InsertLast
-    InsertAtPosition
 
-    DeleteFirst
-    DeleteLast
-    DeleteAtPosition
-
-    Display
-    Count
-*/
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -70,12 +58,3 @@ int main()
     return 0;
 }
 
-/* Rules
-
-    1. Use only dynamic memory allocations
-    2. Dont write any technical syntax in main
-    3. Dont use any global variables
-    4. Be careful while manipulating the First pointer
-    5. Pass the First pointer directly if the function is not going to modify the LL.   (Display, Count)
-    6. Pass the address of of First pointer if the function is going to modify the LL. (InsertFirst, InserLast, InsertAtPos, DeleteFirst, DeleteLast, DeleteAtPos)
-*/
